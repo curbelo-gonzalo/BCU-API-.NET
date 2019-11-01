@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clases\Enumeraciones\CodigoError.cs" />
     <Compile Include="Clases\Enumeraciones\CodigoMoneda.cs" />
     <Compile Include="Clases\Enumeraciones\EstadoRespuesta.cs" />
     <Compile Include="Clases\Enumeraciones\GrupoMoneda.cs" />
