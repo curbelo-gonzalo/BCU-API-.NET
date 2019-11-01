@@ -1,5 +1,5 @@
 ﻿namespace BcuApiDotNet {
-    public enum CodigoError {
+    public enum CodigoError: short {
         MENSAJE_VACIO = 0,
         NO_EXISTE_COTIZACION_PARA_FECHA_INDICADA = 100,
         CODIGO_MONEDA_NO_EXISTE = 101,

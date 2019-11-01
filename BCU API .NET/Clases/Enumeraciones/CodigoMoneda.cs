@@ -4,7 +4,7 @@
         https://www.bcu.gub.uy/Documents/cotizacion.txt (no se incluyen tasas libor)
         Probar en la API misma.
     */
-    public enum CodigoMoneda {
+    public enum CodigoMoneda: short {
         UNIDAD_REAJUSTAB = 0,
         DER_ESP_DE_GIRO = 2,
         DLS_AUSTRALIANOS = 105,
