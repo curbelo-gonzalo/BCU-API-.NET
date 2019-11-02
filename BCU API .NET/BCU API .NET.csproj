@@ -46,6 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clases\Cotizaciones\ConsultaCotizacion.cs" />
+    <Compile Include="Clases\Cotizaciones\DatoCotizacion.cs" />
+    <Compile Include="Clases\Cotizaciones\OpcionesConsultaCotizacion.cs" />
+    <Compile Include="Clases\Cotizaciones\RespuestaEstado.cs" />
+    <Compile Include="Clases\Cotizaciones\ResultadoConsultaCotizacion.cs" />
     <Compile Include="Clases\Enumeraciones\CodigoError.cs" />
     <Compile Include="Clases\Enumeraciones\CodigoMoneda.cs" />
     <Compile Include="Clases\Enumeraciones\EstadoRespuesta.cs" />

@@ -1,6 +1,6 @@
 ﻿namespace BcuApiDotNet {
     public enum EstadoRespuesta: sbyte {
-        OK = 0,
-        CON_ERRORES = 1,
+        CON_ERRORES = 0,
+        OK = 1,
     }
 }
