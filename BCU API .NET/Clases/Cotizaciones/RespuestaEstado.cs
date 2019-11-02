@@ -2,16 +2,28 @@
 
 namespace BcuApiDotNet {
     public class RespuestaEstado {
-        public readonly CodigoError Codigo;
-        public readonly EstadoRespuesta Status;
-        public readonly string Mensaje;
+        private readonly respuestastatus _wsbcu_rs;
 
-        internal RespuestaEstado(respuestastatus rs)
-            : this((EstadoRespuesta)rs.status, (CodigoError)rs.codigoerror, rs.mensaje) { }
-        public RespuestaEstado(EstadoRespuesta status, CodigoError codigo, string mensaje) {
-            this.Status = status;
-            this.Codigo = codigo;
-            this.Mensaje = mensaje;
+
+        internal RespuestaEstado(respuestastatus rs) {
+            _wsbcu_rs = rs;
+        }
+
+
+        public CodigoError Codigo {
+            get {
+                return (CodigoError)_wsbcu_rs.codigoerror;
+            }
+        }
+        public string Mensaje {
+            get {
+                return _wsbcu_rs.mensaje;
+            }
+        }
+        public EstadoRespuesta Status {
+            get {
+                return (EstadoRespuesta)_wsbcu_rs.status;
+            }
         }
     }
 }
