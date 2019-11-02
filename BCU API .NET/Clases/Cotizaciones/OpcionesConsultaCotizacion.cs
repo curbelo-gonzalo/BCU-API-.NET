@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace BcuApiDotNet.Cotizaciones {
     public class OpcionesConsultaCotizacion {
-        private readonly wsbcucotizacionesin _wsbcu_in = new wsbcucotizacionesin();
+        internal readonly wsbcucotizacionesin _wsbcu_in = new wsbcucotizacionesin();
 
 
         public OpcionesConsultaCotizacion() { }
