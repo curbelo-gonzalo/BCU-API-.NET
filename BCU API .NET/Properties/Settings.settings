@@ -5,5 +5,8 @@
     <Setting Name="BcuApiDotNet_uy_gub_bcu_cotizaciones_wsbcucotizaciones" Type="(Web Service URL)" Scope="Application">
       <Value Profile="(Default)">https://cotizaciones.bcu.gub.uy/wscotizaciones/servlet/awsbcucotizaciones</Value>
     </Setting>
+    <Setting Name="BcuApiDotNet_uy_gub_bcu_monedas_wsbcumonedas" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://cotizaciones.bcu.gub.uy/wscotizaciones/servlet/awsbcumonedas</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

@@ -67,6 +67,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.map</DependentUpon>
     </Compile>
+    <Compile Include="Web References\uy.gub.bcu.monedas\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
@@ -86,6 +91,17 @@
       <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
       <CachedSettingsPropName>BcuApiDotNet_uy_gub_bcu_cotizaciones_wsbcucotizaciones</CachedSettingsPropName>
     </WebReferenceUrl>
+    <WebReferenceUrl Include="https://cotizaciones.bcu.gub.uy/wscotizaciones/servlet/awsbcumonedas%3fwsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\uy.gub.bcu.monedas\</RelPath>
+      <UpdateFromURL>https://cotizaciones.bcu.gub.uy/wscotizaciones/servlet/awsbcumonedas%3fwsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>BcuApiDotNet_uy_gub_bcu_monedas_wsbcumonedas</CachedSettingsPropName>
+    </WebReferenceUrl>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
@@ -99,6 +115,14 @@
     </None>
     <None Include="Web References\uy.gub.bcu.cotizaciones\wsbcucotizaciones.wsdl" />
     <None Include="Web References\uy.gub.bcu.cotizaciones\wsbcucotizacionesout.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\uy.gub.bcu.monedas\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\uy.gub.bcu.monedas\wsbcumonedas.wsdl" />
+    <None Include="Web References\uy.gub.bcu.monedas\wsmonedasoutLinea.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
   </ItemGroup>
