@@ -60,6 +60,8 @@
     <Compile Include="Clases\Monedas\DatoMoneda.cs" />
     <Compile Include="Clases\Monedas\OpcionesConsultaMoneda.cs" />
     <Compile Include="Clases\Monedas\ResultadoConsultaMoneda.cs" />
+    <Compile Include="Clases\UltimoCierre\ConsultaUltimoCierre.cs" />
+    <Compile Include="Clases\UltimoCierre\ResultadoConsultaUltimoCierre.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
