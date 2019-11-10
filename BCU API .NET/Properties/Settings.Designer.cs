@@ -42,5 +42,15 @@ namespace BcuApiDotNet.Properties {
                 return ((string)(this["BcuApiDotNet_uy_gub_bcu_monedas_wsbcumonedas"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://cotizaciones.bcu.gub.uy/wscotizaciones/servlet/awsultimocierre")]
+        public string BcuApiDotNet_uy_gub_bcu_ultimocierre_wsultimocierre {
+            get {
+                return ((string)(this["BcuApiDotNet_uy_gub_bcu_ultimocierre_wsultimocierre"]));
+            }
+        }
     }
 }

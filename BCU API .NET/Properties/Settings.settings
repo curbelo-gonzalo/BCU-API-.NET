@@ -8,5 +8,8 @@
     <Setting Name="BcuApiDotNet_uy_gub_bcu_monedas_wsbcumonedas" Type="(Web Service URL)" Scope="Application">
       <Value Profile="(Default)">https://cotizaciones.bcu.gub.uy/wscotizaciones/servlet/awsbcumonedas</Value>
     </Setting>
+    <Setting Name="BcuApiDotNet_uy_gub_bcu_ultimocierre_wsultimocierre" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://cotizaciones.bcu.gub.uy/wscotizaciones/servlet/awsultimocierre</Value>
+    </Setting>
   </Settings>
 </SettingsFile>
